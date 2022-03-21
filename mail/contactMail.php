@@ -12,12 +12,12 @@
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='tls';
 
-    $mail->Username = 'sblogger810@gmail.com';
-    $mail->Password='Shourya@zero01?';
+    $mail->Username = 'XYZ@gmail.com';
+    $mail->Password='*******';
 
-    $mail->setFrom("sblogger810@gmail.com", "SSGC Bank");
-    $mail->addAddress("sblogger810@gmail.com");
-    $mail->addReplyTo("sblogger810@gmail.com");
+    $mail->setFrom("XYZ@gmail.com", "SSGC Bank");
+    $mail->addAddress("XYZ@gmail.com");
+    $mail->addReplyTo("XYZ@gmail.com");
 
     $mail->isHTML(true);
     $mail->Subject="$subject";

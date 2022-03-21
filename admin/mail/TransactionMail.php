@@ -15,13 +15,13 @@
         $mail->SMTPSecure='tls';
 
      
-        $mail->Username = 'sblogger810@gmail.com';
-        $mail->Password='Shourya@zero01?';
+        $mail->Username = 'XYZ@gmail.com';
+        $mail->Password='*******';
 
         $content = file_get_contents('../mail/DebitMailTemp.php');
-        $mail->setFrom("sblogger810@gmail.com", "SSGC Bank");
+        $mail->setFrom("XYZ@gmail.com", "SSGC Bank");
         $mail->addAddress($customerMail);
-        $mail->addReplyTo("sblogger810@gmail.com");
+        $mail->addReplyTo("XYZ@gmail.com");
 
         $mail->isHTML(true);
         $mail->Subject="Your Account '$AccountNo' has been debited";
@@ -61,13 +61,13 @@
         $mail->SMTPSecure='tls';
 
         
-        $mail->Username = 'sblogger810@gmail.com';
-        $mail->Password='Shourya@zero01?';
+        $mail->Username = 'XYZ@gmail.com';
+        $mail->Password='*******';
         
         // $content = file_get_contents('../mail/CreditMailTemp.php');
-        $mail->setFrom("sblogger810@gmail.com", "SSGC Bank");
+        $mail->setFrom("XYZ@gmail.com", "SSGC Bank");
         $mail->addAddress($customerMail);
-        $mail->addReplyTo("sblogger810@gmail.com");
+        $mail->addReplyTo("XYZ@gmail.com");
 
         $mail->isHTML(true);
         $mail->Subject="Your Account '$AccountNo' can be credited";

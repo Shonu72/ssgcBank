@@ -13,13 +13,13 @@
         $mail->SMTPSecure='tls';
 
 
-        $mail->Username = 'sblogger810@gmail.com';
+        $mail->Username = 'XYZ@gmail.com';
         $mail->Password='Shourya@zero01?';
          
         // $content = file_get_contents('../mail/congraTemp.php');
-        $mail->setFrom("sblogger810@gmail.com", "SSGC Bank");
+        $mail->setFrom("XYZ@gmail.com", "SSGC Bank");
         $mail->addAddress($customerMail);
-        $mail->addReplyTo("sblogger810@gmail.com");
+        $mail->addReplyTo("XYZ@gmail.com");
 
         $mail->isHTML(true);
         $mail->Subject="Account Created Sucessfully!";
