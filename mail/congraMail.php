@@ -14,7 +14,7 @@
 
 
         $mail->Username = 'XYZ@gmail.com';
-        $mail->Password='Shourya@zero01?';
+        $mail->Password='*********';
          
         // $content = file_get_contents('../mail/congraTemp.php');
         $mail->setFrom("XYZ@gmail.com", "SSGC Bank");
